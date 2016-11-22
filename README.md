@@ -29,7 +29,7 @@ When the page is loaded, the Symfony Web Debug Toolbar is loaded. Just watch the
 
 ### Download from Composer
 * Open terminal in your Symfony project folder,
-* Run `composer require darkkrye/cache-clear-toolbar dev-master`
+* Run `composer require darkkrye/cache-clear-toolbar`
 
 ### Register into AppKernel
 * Add the following code into AppKernel :
