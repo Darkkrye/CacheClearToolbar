@@ -2,6 +2,7 @@
     "name": "darkkrye/cache-clear-toolbar",
     "description": "CacheClearToolbar is an addon to the Symfony Web Debug Toolbar.",
     "type": "library",
+    "licence": "MIT",
     "require-dev": {
         "symfony/symfony": "3.*"
     },

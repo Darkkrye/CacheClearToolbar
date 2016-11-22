@@ -23,7 +23,7 @@ When the page is loaded, the Symfony Web Debug Toolbar is loaded. Just watch the
 ### Download from Github
 * Unzip Bundle,
 * Rename folder to `CacheClearToolbar`
-* Move Bundle to `'MySymfonyProject'/vendor/`
+* Move Bundle content to `'MySymfonyProject'/src/Darkkrye/CacheClearToolbar`
 
 ### Download from Composer
 * Open terminal in your Symfony project folder,
