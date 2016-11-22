@@ -1,5 +1,5 @@
 <?php
-namespace CacheClearToolbar\DataCollector;
+namespace Darkkrye\CacheClearToolbar\DataCollector;
 
 use Symfony\Component\HttpKernel\DataCollector\DataCollector;
 use Symfony\Component\HttpFoundation\Request;

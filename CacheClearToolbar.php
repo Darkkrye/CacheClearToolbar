@@ -1,6 +1,6 @@
 <?php
 
-namespace CacheClearToolbar;
+namespace Darkkrye\CacheClearToolbar;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -20,13 +20,14 @@ When the page is loaded, the Symfony Web Debug Toolbar is loaded. Just watch the
 
 ## Install
 
-### Download
-* Download from GitHub
-
-### Unzip Bundle
+### Download from Github
 * Unzip Bundle,
 * Rename folder to `CacheClearToolbar`
-* Move Bundle to `'MySymfonyProject'/src/`
+* Move Bundle to `'MySymfonyProject'/vendor/`
+
+### Download from Composer
+* Open terminal in your Symfony project folder,
+* Run `composer require darkkrye/cache-clear-toolbar`
 
 ### Register into AppKernel
 * Add the following code into AppKernel :
@@ -34,7 +35,7 @@ When the page is loaded, the Symfony Web Debug Toolbar is loaded. Just watch the
 // app/AppKernel.php
 if (in_array($this->getEnvironment(), array('dev', 'test'))) {
     [...]
-    $bundles[] = new CacheClearToolbar\CacheClearToolbar();
+    $bundles[] = new Darkkrye\CacheClearToolbar\CacheClearToolbar();
 }
 ```
 
@@ -52,8 +53,8 @@ cache_clear_toolbar:
 
 ## TODO !
  - [x] Create Web Debug Toolbar tool,
- - [ ] Add additional namespace,
- - [ ] Release to composer,
+ - [x] Add additional namespace,
+ - [x] Release to composer,
  - [ ] Change properties to only work in dev environment,
  - [ ] Add new route to just clear the cache and close the tab,
  - [ ] Add his own css rules,
