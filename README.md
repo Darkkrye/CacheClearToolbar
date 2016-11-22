@@ -12,6 +12,8 @@ It allows you to quickly :
 * Clear both cache and refresh the page or
 * Just refresh the page.
 
+![alt text](web/cachecleartoolbar.png "CacheClearToolbar")
+
 ## Usage
 When the page is loaded, the Symfony Web Debug Toolbar is loaded. Just watch the last information in the Toolbar to see the CacheClearToolbar went alive.
 
@@ -27,7 +29,7 @@ When the page is loaded, the Symfony Web Debug Toolbar is loaded. Just watch the
 
 ### Download from Composer
 * Open terminal in your Symfony project folder,
-* Run `composer require darkkrye/cache-clear-toolbar`
+* Run `composer require darkkrye/cache-clear-toolbar dev-master`
 
 ### Register into AppKernel
 * Add the following code into AppKernel :
