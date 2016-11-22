@@ -53,6 +53,9 @@ cache_clear_toolbar:
 ### Reload
 * Reload and enjoy !
 
+## Version
+The CacheClearToolbar stable current version is : 1.0
+
 ## TODO !
  - [x] Create Web Debug Toolbar tool,
  - [x] Add additional namespace,
